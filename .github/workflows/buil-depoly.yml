@@ -31,7 +31,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        name: Install & depoly
+       - name: Install & depoly
          run: |
            npm ci
            npm run dev
